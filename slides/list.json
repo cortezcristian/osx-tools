@@ -35,5 +35,8 @@
         "vim-config.html",
         "vim-pathogen.html",
         "vim-pathogen-config.html"
-    ]
+    ],
+    "vim-backups.html",
+    "octolinker.html",
+    "octotree.html"
 ]

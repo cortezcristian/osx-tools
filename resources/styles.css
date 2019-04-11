@@ -7,6 +7,7 @@ pre {
   box-shadow: none !important;
   font-size: 0.50em !important;
   line-height: 1em !important;
+  width: auto !important;
 }
 
 code {
