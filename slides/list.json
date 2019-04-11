@@ -10,5 +10,6 @@
     "tree.html",
     "node.html",
     "gsed.html",
-    "update-node.html"
+    "update-node.html",
+    "using-gnu-sed.html"
 ]
