@@ -30,8 +30,9 @@
     "mongo.html",
     "jq.html",
     [
-      "vim.html",
-      "vim-config.html",
-      "vim-pathogen.html"
-    ]
+        "vim.html",
+        "vim-config.html",
+        "vim-pathogen.html"
+    ],
+    "rename.html"
 ]
