@@ -12,6 +12,7 @@
         "git-configs.html"
     ],
     "tree.html",
+    "rename.html",
     [
         "node.html",
         "update-node.html"
@@ -32,7 +33,7 @@
     [
         "vim.html",
         "vim-config.html",
-        "vim-pathogen.html"
-    ],
-    "rename.html"
+        "vim-pathogen.html",
+        "vim-pathogen-config.html"
+    ]
 ]
