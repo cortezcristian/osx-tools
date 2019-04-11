@@ -11,5 +11,8 @@
     "node.html",
     "gsed.html",
     "update-node.html",
-    "using-gnu-sed.html"
+    "using-gnu-sed.html",
+    "zsh.html",
+    "install-oh-my-zsh.html",
+    "docker.html"
 ]
