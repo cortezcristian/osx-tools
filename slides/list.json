@@ -14,5 +14,10 @@
     "using-gnu-sed.html",
     "zsh.html",
     "install-oh-my-zsh.html",
-    "docker.html"
+    "docker.html",
+    "vim.html",
+    "skype.html",
+    "mongo.html",
+    "jq.html",
+    "iterm2.html"
 ]

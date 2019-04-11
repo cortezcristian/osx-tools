@@ -1,5 +1,6 @@
 
 # OSX Setup Tools
 
-All the little things I do isntall explained
+All the little things I do install explained
+
  ```by @cortezcristian```
