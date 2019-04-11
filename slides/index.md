@@ -1,10 +1,5 @@
 
 # OSX Setup Tools
 
-From the terminal, pop in:
-
-  ```yo reveal:slide "Slide Title"```
-
-Available options:
-
- ```--markdown --attributes --notes```
+All the little things I do isntall explained
+ ```by @cortezcristian```
