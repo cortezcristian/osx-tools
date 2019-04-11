@@ -1,0 +1,3 @@
+     info Using HTML.
+     info Appending slides/chrome.html to slides/list.json.
+identical slides/chrome.html
