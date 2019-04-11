@@ -1,0 +1,12 @@
+<h2>Using GNU sed</h2>
+<p>And now we can be productive...</p>
+
+<pre>
+<code class="hljs bash">
+find ./ -type f -exec gsed -i 's#Test Game#Unit Tests#g' "{}" +;
+</code>
+</pre>
+
+<p>
+  Replaces in all files in the current directory
+</p>
