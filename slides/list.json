@@ -52,5 +52,6 @@
     "vim-youcompleteme.html",
     "vim-ctrlp.html",
     "vim-airline.html",
-    "vim-extra-configs.html"
+    "vim-extra-configs.html",
+    "vim-powerline-fonts.html"
 ]
