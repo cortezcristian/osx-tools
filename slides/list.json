@@ -58,5 +58,7 @@
     "vim-airline-themes.html",
     "vim-tabular.html",
     "vim-abolish.html",
-    "vim-fugitive.html"
+    "vim-fugitive.html",
+    "vim-surround.html",
+    "vim-javascript.html"
 ]
