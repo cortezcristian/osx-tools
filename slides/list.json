@@ -60,5 +60,8 @@
     "vim-abolish.html",
     "vim-fugitive.html",
     "vim-surround.html",
-    "vim-javascript.html"
+    "vim-javascript.html",
+    "vim-window-swap.html",
+    "the-silver-searcher.html",
+    "vim-use-ag.html"
 ]
