@@ -4,7 +4,11 @@
         "home-brew.html",
         "install-basics.html"
     ],
-    "chrome.html",
+    [
+        "chrome.html",
+        "octolinker.html",
+        "octotree.html"
+    ],
     "keeping-you-awake.html",
     "keepassx.html",
     [
@@ -34,9 +38,12 @@
         "vim.html",
         "vim-config.html",
         "vim-pathogen.html",
-        "vim-pathogen-config.html"
+        "vim-pathogen-config.html",
+        "vim-backups.html",
+        "vim-globals.html",
+        "vim-nerdtree.html",
+        "vim-nerdcommenter.html"
     ],
-    "vim-backups.html",
-    "octolinker.html",
-    "octotree.html"
+    "vim-shortcuts.html",
+    "vim-folding.html"
 ]
