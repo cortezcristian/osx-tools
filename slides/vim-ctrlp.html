@@ -1,0 +1,28 @@
+<h2>Vim CtrlP</h2>
+<p class="help-desc">Install plugin</p>
+
+<pre>
+<code class="hljs bash">
+cd ~/.vim/bundle
+git clone git@github.com:ctrlpvim/ctrlp.vim.git
+</code>
+</pre>
+
+<p class="help-desc">Add configs into your <b>~/.vimrc</b></p>
+
+<pre>
+<code class="hljs vim">
+" Plugin: ctrlp.vim
+" https://github.com/ctrlpvim/ctrlp.vim
+" ------------------
+" http://kien.github.io/ctrlp.vim/
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+" https://github.com/kien/ctrlp.vim/issues/58#issuecomment-42743551
+let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|dist)|(\.(swp|ico|git|svn))$'
+</code>
+</pre>
+
+<p class="help-desc">
+  Visit the oficial website for the latest instructions
+  <a href="URL_HERE" target="_blank">URL_HERE</a>
+</p>

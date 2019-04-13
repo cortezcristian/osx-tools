@@ -1,0 +1,31 @@
+<h2>Vim Extra Configs</h2>
+
+<p class="help-desc">Add configs into your <b>~/.vimrc</b></p>
+
+<pre>
+<code class="hljs vim">
+" Overrides
+" -----------------
+set encoding=utf-8
+set t_Co=256
+set fillchars+=stl:\ ,stlnc:\
+set term=xterm-256color
+set termencoding=utf-8
+set background=dark
+colorscheme hybrid
+set tabstop=2 shiftwidth=2 expandtab
+" To fix pre-existing tabs
+" :%s/\t/  /g
+" Remove unwanted spaces
+" http://vim.wikia.com/wiki/VimTip878
+autocmd BufWritePre * :%s/\s\+$//e
+" Show trailing whitespace:
+" http://vim.wikia.com/wiki/Highlight_unwanted_spaces
+" /\s\+$
+" https://stackoverflow.com/questions/7225057/use-mouse-scroll-wheel-in-vim
+set mouse=a
+syntax on
+set backspace=indent,eol,start
+set nofoldenable  " disable folding
+</code>
+</pre>

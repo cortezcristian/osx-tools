@@ -16,4 +16,9 @@ code {
 
 p.help-desc {
   font-size: 0.55em !important;
+  margin: 10px 0;
+}
+
+.hide {
+  display: none !important;
 }

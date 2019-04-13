@@ -46,5 +46,11 @@
         "vim-shortcuts.html",
         "vim-folding.html",
         "vim-git-gutter.html"
-    ]
+    ],
+    "vim-syntastic.html",
+    "vim-js-beautify.html",
+    "vim-youcompleteme.html",
+    "vim-ctrlp.html",
+    "vim-airline.html",
+    "vim-extra-configs.html"
 ]

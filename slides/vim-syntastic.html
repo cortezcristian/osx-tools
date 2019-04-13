@@ -1,0 +1,32 @@
+<h2>Vim Syntastic</h2>
+<p class="help-desc">Install plugin</p>
+
+<pre>
+<code class="hljs bash">
+cd ~/.vim/bundle
+git clone --depth=1 https://github.com/vim-syntastic/syntastic.git
+</code>
+</pre>
+
+<p class="help-desc">Add configs into your <b>~/.vimrc</b></p>
+
+<pre>
+<code class="hljs vim">
+" Plugin: syntastic
+" https://github.com/scrooloose/syntastic
+" ------------------
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_javascript_checkers = ['jshint']
+</code>
+</pre>
+
+<p class="help-desc">
+  Visit the oficial website for the latest instructions
+  <a href="https://github.com/vim-syntastic/syntastic" target="_blank">https://github.com/vim-syntastic/syntastic</a>
+</p>

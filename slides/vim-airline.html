@@ -1,0 +1,40 @@
+<h2>Vim Airline</h2>
+<p class="help-desc">Install plugin</p>
+
+<pre>
+<code class="hljs bash">
+cd ~/.vim/bundle
+git clone git@github.com:vim-airline/vim-airline.git
+</code>
+</pre>
+
+<p class="help-desc">Add configs into your <b>~/.vimrc</b></p>
+
+<pre>
+<code class="hljs vim">
+" Plugin: vim-airline
+" https://github.com/vim-airline/vim-airline
+" ------------------
+let g:airline_powerline_fonts = 1
+let g:airline_enable_branch     = 1
+let g:airline_enable_syntastic  = 1
+set statusline=AAA%F%m%r%h%w\
+set statusline+=%{fugitive#statusline()}\ " http://vim.wikia.com/wiki/Displaying_status_line_always
+set laststatus=2
+set ttimeoutlen=50
+let g:airline_theme = 'powerlineish'
+let g:airline_theme = 'kolor'
+set t_Co=256
+let g:airline#extensions#hunks#enabled=0
+let g:airline#extensions#branch#enabled=1
+let g:airline#extensions#tabline#enabled = 1
+function! AirlineInit()
+    let g:airline_section_a = airline#section#create(['mode', '', 'branch', '%{fugitive#statusline()}'])
+    let g:airline_section_b = airline#section#create_left(['ffenc','file'])
+    let g:airline_section_c = airline#section#create(['%{getcwd()}'])
+endfunction
+</code>
+</pre>
+<div class="hide">
+" http://vi.stackexchange.com/questions/3359/how-to-fix-status-bar-symbols-in-airline-plugin
+</div>
