@@ -1,0 +1,31 @@
+<h2>Vim YouCompleteMe</h2>
+<p class="help-desc">Install plugin</p>
+
+<pre>
+<code class="hljs bash">
+cd ~/.vim/bundle
+git clone git@github.com:Valloric/YouCompleteMe.git
+cd ~/.vim/bundle/YouCompleteMe
+git submodule update --init --recursive
+brew install cmake
+./install.py --clang-completer
+</code>
+</pre>
+
+<p class="help-desc">Add configs into your <b>~/.vimrc</b></p>
+
+<pre>
+<code class="hljs vim">
+" Plugin: YouCompleteMe
+" https://github.com/Valloric/YouCompleteMe
+" ------------------
+" https://medium.com/vim-drops/javascript-autocompletion-on-vim-4fea7f6934e2
+" https://github.com/tommmyy/dotfiles/blob/master/.vim/.vimrc
+let g:ycm_min_num_of_chars_for_completion = 4
+let g:ycm_min_num_identifier_candidate_chars = 4
+let g:ycm_enable_diagnostic_highlighting = 0
+" Don't show YCM's preview window [ I find it really annoying ]
+set completeopt-=preview
+let g:ycm_add_preview_to_completeopt = 0
+</code>
+</pre>

@@ -1,0 +1,37 @@
+<h2>Vim JS Beautify</h2>
+<p class="help-desc">Install plugin</p>
+
+<pre>
+<code class="hljs bash">
+cd ~/.vim/bundle
+git clone https://github.com/maksimr/vim-jsbeautify.git
+cd vim-jsbeautify && git submodule update --init --recursive
+</code>
+</pre>
+
+<p class="help-desc">Add configs into your <b>~/.vimrc</b></p>
+
+<pre>
+<code class="hljs vim">
+" Plugin: vim-jsbeautify
+" https://github.com/maksimr/vim-jsbeautify
+" ------------------
+":call HtmlBeautify()
+let g:config_Beautifier = {}
+let g:config_Beautifier['html'] = {}
+let g:config_Beautifier['html'].indent_size = '2'
+let g:config_Beautifier['js'] = {}
+let g:config_Beautifier['js'].indent_size = '2'
+"Do Ctrl+F on selection
+autocmd FileType javascript vnoremap &lt;buffer&gt;  &lt;c-f&gt; :call RangeJsBeautify()&lt;cr&gt;
+autocmd FileType json vnoremap &lt;buffer&gt; &lt;c-f&gt; :call RangeJsonBeautify()&lt;cr&gt;
+autocmd FileType jsx vnoremap &lt;buffer&gt; &lt;c-f&gt; :call RangeJsxBeautify()&lt;cr&gt;
+autocmd FileType html vnoremap &lt;buffer&gt; &lt;c-f&gt; :call RangeHtmlBeautify()&lt;cr&gt;
+autocmd FileType css vnoremap &lt;buffer&gt; &lt;c-f&gt; :call RangeCSSBeautify()&lt;cr&gt;
+</code>
+</pre>
+
+<p class="help-desc hide">
+  Visit the oficial website for the latest instructions
+  <a href="https://github.com/maksimr/vim-jsbeautify" target="_blank">https://github.com/maksimr/vim-jsbeautify</a>
+</p>

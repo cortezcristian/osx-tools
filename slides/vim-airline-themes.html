@@ -1,0 +1,33 @@
+<h2>Vim Airline Themes</h2>
+<p class="help-desc">Install plugin</p>
+
+<pre>
+<code class="hljs bash">
+cd ~/.vim/bundle
+git clone https://github.com/vim-airline/vim-airline-themes
+</code>
+</pre>
+
+<p class="help-desc">Add configs into your <b>~/.vimrc</b></p>
+
+<pre>
+<code class="hljs vim">
+" Airline Themes
+" https://github.com/vim-airline/vim-airline-themes
+" ------------------
+" http://vim.wikia.com/wiki/Displaying_status_line_always
+set laststatus=2
+set ttimeoutlen=50
+let g:airline_theme = 'powerlineish'
+let g:airline_theme = 'kolor'
+set t_Co=256
+let g:airline#extensions#hunks#enabled=0
+let g:airline#extensions#branch#enabled=1
+let g:airline#extensions#tabline#enabled = 1
+</code>
+</pre>
+
+<p class="help-desc">
+  Visit the oficial website for the latest instructions
+  <a href="URL_HERE" target="_blank">URL_HERE</a>
+</p>

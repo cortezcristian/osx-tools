@@ -4,7 +4,11 @@
         "home-brew.html",
         "install-basics.html"
     ],
-    "chrome.html",
+    [
+        "chrome.html",
+        "octolinker.html",
+        "octotree.html"
+    ],
     "keeping-you-awake.html",
     "keepassx.html",
     [
@@ -12,6 +16,7 @@
         "git-configs.html"
     ],
     "tree.html",
+    "rename.html",
     [
         "node.html",
         "update-node.html"
@@ -32,7 +37,31 @@
     [
         "vim.html",
         "vim-config.html",
-        "vim-pathogen.html"
-    ],
-    "rename.html"
+        "vim-pathogen.html",
+        "vim-pathogen-config.html",
+        "vim-backups.html",
+        "vim-globals.html",
+        "vim-nerdtree.html",
+        "vim-nerdcommenter.html",
+        "vim-shortcuts.html",
+        "vim-folding.html",
+        "vim-git-gutter.html",
+        "vim-syntastic.html",
+        "vim-js-beautify.html",
+        "vim-youcompleteme.html",
+        "vim-ctrlp.html",
+        "vim-airline.html",
+        "vim-extra-configs.html",
+        "vim-powerline-fonts.html",
+        "vim-colors.html",
+        "vim-airline-themes.html",
+        "vim-tabular.html",
+        "vim-abolish.html",
+        "vim-fugitive.html",
+        "vim-surround.html",
+        "vim-javascript.html",
+        "vim-window-swap.html",
+        "the-silver-searcher.html",
+        "vim-use-ag.html"
+    ]
 ]
