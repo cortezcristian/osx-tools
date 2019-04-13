@@ -1,0 +1,28 @@
+<h2>Vim Git Gutter</h2>
+<p class="help-desc">Install plugin</p>
+
+<pre>
+<code class="hljs bash">
+cd ~/.vim/bundle
+git clone git://github.com/airblade/vim-gitgutter.git
+</code>
+</pre>
+
+<p class="help-desc">Add configs into your <b>~/.vimrc</b></p>
+
+<pre>
+<code class="hljs vim">
+" Plugin: vim-gitgutter
+" https://github.com/airblade/vim-gitgutter
+" ------------------
+nmap &lt;Leader&gt;ha &lt;Plug&gt;GitGutterStageHunk
+nmap &lt;Leader&gt;hu &lt;Plug&gt;GitGutterRevertHunk
+let g:gitgutter_override_sign_column_highlight = 0
+let g:gitgutter_sign_column_always = 1
+</code>
+</pre>
+
+<p class="help-desc">
+  Visit the oficial website for the latest instructions
+  <a href="https://github.com/airblade/vim-gitgutter" target="_blank">https://github.com/airblade/vim-gitgutter</a>
+</p>

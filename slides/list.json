@@ -42,8 +42,9 @@
         "vim-backups.html",
         "vim-globals.html",
         "vim-nerdtree.html",
-        "vim-nerdcommenter.html"
-    ],
-    "vim-shortcuts.html",
-    "vim-folding.html"
+        "vim-nerdcommenter.html",
+        "vim-shortcuts.html",
+        "vim-folding.html",
+        "vim-git-gutter.html"
+    ]
 ]
