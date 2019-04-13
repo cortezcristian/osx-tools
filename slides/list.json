@@ -55,5 +55,8 @@
     "vim-extra-configs.html",
     "vim-powerline-fonts.html",
     "vim-colors.html",
-    "vim-airline-themes.html"
+    "vim-airline-themes.html",
+    "vim-tabular.html",
+    "vim-abolish.html",
+    "vim-fugitive.html"
 ]
