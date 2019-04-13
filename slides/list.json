@@ -53,5 +53,7 @@
     "vim-ctrlp.html",
     "vim-airline.html",
     "vim-extra-configs.html",
-    "vim-powerline-fonts.html"
+    "vim-powerline-fonts.html",
+    "vim-colors.html",
+    "vim-airline-themes.html"
 ]

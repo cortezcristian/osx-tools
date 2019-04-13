@@ -19,15 +19,8 @@ let g:airline_powerline_fonts = 1
 let g:airline_enable_branch     = 1
 let g:airline_enable_syntastic  = 1
 set statusline=AAA%F%m%r%h%w\
-set statusline+=%{fugitive#statusline()}\ " http://vim.wikia.com/wiki/Displaying_status_line_always
-set laststatus=2
-set ttimeoutlen=50
-let g:airline_theme = 'powerlineish'
-let g:airline_theme = 'kolor'
-set t_Co=256
-let g:airline#extensions#hunks#enabled=0
-let g:airline#extensions#branch#enabled=1
-let g:airline#extensions#tabline#enabled = 1
+set statusline+=%{fugitive#statusline()}\
+
 function! AirlineInit()
     let g:airline_section_a = airline#section#create(['mode', '', 'branch', '%{fugitive#statusline()}'])
     let g:airline_section_b = airline#section#create_left(['ffenc','file'])
