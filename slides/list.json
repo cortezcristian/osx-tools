@@ -65,5 +65,6 @@
         "vim-use-ag.html",
         "vim-narrow-region-plugin.html"
     ],
-    "vim-typescript.html"
+    "vim-typescript.html",
+    "visual-studio-code.html"
 ]
