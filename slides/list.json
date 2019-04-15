@@ -66,5 +66,6 @@
         "vim-narrow-region-plugin.html"
     ],
     "vim-typescript.html",
-    "visual-studio-code.html"
+    "visual-studio-code.html",
+    "git-extras.html"
 ]
