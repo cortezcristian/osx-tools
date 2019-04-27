@@ -64,5 +64,9 @@
         "the-silver-searcher.html",
         "vim-use-ag.html",
         "vim-narrow-region-plugin.html"
-    ]
+    ],
+    "vim-typescript.html",
+    "visual-studio-code.html",
+    "git-extras.html",
+    "hub.html"
 ]
