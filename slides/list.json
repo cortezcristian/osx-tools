@@ -68,5 +68,7 @@
     "vim-typescript.html",
     "visual-studio-code.html",
     "git-extras.html",
-    "hub.html"
+    "hub.html",
+    "http-server.html",
+    "vim-vue.html"
 ]
