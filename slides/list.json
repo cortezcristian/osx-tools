@@ -29,7 +29,10 @@
         "zsh.html",
         "install-oh-my-zsh.html"
     ],
-    "iterm2.html",
+    [
+      "iterm2.html",
+      "iterm2-reuse-dir.html"
+    ],
     "docker.html",
     "skype.html",
     "mongo.html",
@@ -68,5 +71,7 @@
     "vim-typescript.html",
     "visual-studio-code.html",
     "git-extras.html",
-    "hub.html"
+    "hub.html",
+    "http-server.html",
+    "vim-vue.html"
 ]
