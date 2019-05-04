@@ -22,3 +22,9 @@ p.help-desc {
 .hide {
   display: none !important;
 }
+
+.custom-image {
+  border: 0 none !important;
+  box-shadow: none !important;
+  max-width: 50% !important;
+}
