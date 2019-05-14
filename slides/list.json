@@ -10,7 +10,10 @@
         "octotree.html"
     ],
     "keeping-you-awake.html",
-    "keepassx.html",
+    [
+        "keepassx.html",
+        "mac-pass.html"
+    ],
     [
         "git.html",
         "git-configs.html"
