@@ -30,8 +30,8 @@
         "install-oh-my-zsh.html"
     ],
     [
-      "iterm2.html",
-      "iterm2-reuse-dir.html"
+        "iterm2.html",
+        "iterm2-reuse-dir.html"
     ],
     "docker.html",
     "skype.html",
@@ -73,5 +73,6 @@
     "git-extras.html",
     "hub.html",
     "http-server.html",
-    "vim-vue.html"
+    "vim-vue.html",
+    "vim-docker-tools.html"
 ]
